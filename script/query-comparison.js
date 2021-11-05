@@ -28,7 +28,7 @@ db.products.insertMany([
     },
     {
         _id: 5,
-        name: "Acer Precator XXI",
+        name: "HP Omen",
         price: new NumberLong(25000000),
         category: "laptop"
     }

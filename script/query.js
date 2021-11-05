@@ -1,6 +1,6 @@
 // select *  from customers where _id = 'cust01'
 db.customers.find({
-    _id: "cust01"
+    _id: "customer01"
 });
 
 // select * from customers where name = 'Khalid bin Walid'

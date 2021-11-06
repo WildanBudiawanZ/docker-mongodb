@@ -78,9 +78,9 @@ db.products.find({
     }
 });
 
-// select * fro customers where _id = "khannedy"
+// select * fro customers where _id = "customer01"
 db.customers.find({
     $where: function(){
-        return this._id == "khannedy";
+        return this._id == "customer01";
     }
 });
